@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b1 {
+    position: absolute;
+    margin-top: 50px;
+    width: 50%;    
+}
+body {
+    display: inline-block;
+    font-family: Arial;
+}
+main {
+    height: 100vh;
+}   
+.color {
+    color: #2a0208;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px;
+}
+img {
+  float: left;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+}    
+
+#box1 {
+    float: inline-start;
+    height: auto;
+    background: linear-gradient(to right, #c29df5, #cadaea);
+
+}
+aside{
+    display: flex;
+}
+
+a:hover {
+    color: rgb(0, 221, 255);
+}
+b {
+    color: #efdbf2;
+    margin: 30px;
+}
+table {
+    width: 70% ;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #7278ce;
+    border: 1px solid #a41b1b;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+th, td {
+    padding: 20px 15px;
+    border-bottom: 1px solid #202533;
+}
+
+th {
+    background-color: #af4c51;
+    color: rgb(244, 238, 238);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e1d9f7;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(2, 42, 38);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #facbce;
+    
+}
+
+footer{
+    text-align: center; 
+    font-weight: bold; 
+    background: linear-gradient(to right, #f4d3db, #eef197);
+    padding: 40px;
+    font-size: 20px; 
+    color: #f80d2c;
+}
+    
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 10px;
+    }
+    /* aside {
+        width: 100%;
+        margin-top: 1rem;
+        margin-top: 20px; */
+}
+
+
+

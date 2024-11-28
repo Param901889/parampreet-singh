@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: 80vh;
+}
+.color {
+  color:  #100103;
+  font-weight: bold;
+  background-color: rgb(202, 229, 248);
+  text-align: center;
+  padding: 10px;
+}
+
+.structure {
+  background-color: rgb(168, 136, 241);
+  color: rgb(180, 199, 216);
+  text-align: center;
+  padding: 10px 0;
+}
+aside{
+  margin-top: 60px;
+}
+ul {
+  list-style: none;
+  background-color: rgb(185, 201, 248);
+  padding: 40px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #053975;
+  font-weight: bold;
+  color: white; 
+  border-radius: 5px;
+}
+
+ul li a:hover {
+  background-color: rgb(195, 218, 234);
+  color: white;
+}
+
+a:hover {
+  background-color: #f1b3bc;
+}
+
+body {
+  background: linear-gradient(to right, #a2d2ea, #a4b4f2);
+  font-family: Arial, sans-serif;
+}
+.box1 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.box1 h2 {
+  text-align: center;
+  color: rgb(1, 22, 33);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(4, 72, 161);
+}
+
+.form-control, .form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #000710; 
+  color: rgb(249, 251, 252);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(187, 207, 74);
+}
+footer{
+   
+  text-align: center; 
+  font-weight: bold; 
+  background: linear-gradient(to right, #62c6f8, #98a3df);
+  padding: 20px 0;
+  font-size: 20px; 
+  color: #01030e; 
+}
+
+
+@media (max-width: 768px) {
+  ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .box1 {
+      width: 95%;
+  }
+}

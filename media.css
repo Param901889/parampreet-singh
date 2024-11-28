@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e57678, #9cb9f0);
+    color: #333;
+    line-height: 1.6;
+}
+h1 {
+    color: hsl(64, 100%, 3%);
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+main{
+    height: 70vh;
+}
+nav{
+    background-color: rgb(194, 232, 252);
+    color: rgb(247, 51, 51);
+    padding:20px ;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    font-weight: bold;
+    background-color: #023b6d;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(187, 241, 179);
+    color: white;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+    margin-top: 100px;
+    height: 80%;
+    width: 60%;
+}
+
+.media-item {
+    background-color: #f9e0e0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.media-item video {
+    max-width: 1000px;
+    height: 90%;
+    border-radius:10px ;
+}
+
+.media-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555; 
+}
+
+
+footer{
+   
+    text-align: center; 
+    font-weight: bold; 
+    background: linear-gradient(to right, #8abeeb, #f2bff0);
+    padding: 30px;
+    font-size: 20px; 
+    color: #b0040c; 
+}
+
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 10px;
+    }
+
+    .media-container {
+        grid-template-columns: 1fr;
+    }
+}
